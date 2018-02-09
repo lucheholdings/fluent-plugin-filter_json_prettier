@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-filter_json_prettier"
   spec.version       = Fluent::Plugin::FilterJsonPrettier::VERSION
   spec.authors       = ["LUCHE HOLDINGS PTE. LTD."]
-  spec.email         = ["admin@bestpresent.jp"]
+  spec.email         = ["info@bestpresent.jp"]
 
   spec.summary       = "transform entries of a record to pretty JSON string safely"
   spec.description   = "JSON prettier with yajl-ruby to avoid 'error = \\xXX from ASCII-8BIT to UTF-8'"
@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "test-unit"
 
   spec.add_runtime_dependency "fluentd", ">= 1.0.2"
   spec.add_runtime_dependency "yajl-ruby", "~> 1.3.1"
